@@ -10,7 +10,7 @@ On the agent, just run
 This will add the profile data to the logs on the master.
 
 ### For all puppet runs:
-In puppet.conf on the master, add:
+In puppet.conf (default: /etc/puppetlabs/puppet/puppet.conf) on the master, add:
 ```
   profile=true
 ```
