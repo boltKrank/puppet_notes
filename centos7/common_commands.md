@@ -1,0 +1,5 @@
+List services running:
+
+```
+systemctl
+```
