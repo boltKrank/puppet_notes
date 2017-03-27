@@ -15,4 +15,4 @@ In puppet.conf on the master, add:
   profile=true
 ```
 
-_NOTE: This will increase the log size substantially
+_NOTE: This will increase the log size substantially_
