@@ -1,4 +1,4 @@
-##1. Install and configure the necessary dependencies
+## 1. Install and configure the necessary dependencies
 
 If you install Postfix to send email please select 'Internet Site' during setup. Instead of using Postfix you can also use Sendmail or configure a custom SMTP server and configure it as an SMTP server.
 
@@ -8,7 +8,7 @@ On Centos 6 and 7, the commands below will also open HTTP and SSH access in the 
 sudo apt-get install curl openssh-server ca-certificates postfix
 ```
 
-##2. Add the GitLab package server and install the package
+## 2. Add the GitLab package server and install the package
 
 ```
 curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
@@ -22,13 +22,13 @@ curl -LJO https://packages.gitlab.com/gitlab/gitlab-ce/packages/ubuntu/xenial/gi
 dpkg -i gitlab-ce-XXX.deb
 ```
 
-##3. Configure and start GitLab
+## 3. Configure and start GitLab
 
 ```
 sudo gitlab-ctl reconfigure
 ```
 
-##4. Browse to the hostname and login
+## 4. Browse to the hostname and login
 
 On your first visit, you'll be redirected to a password reset screen to provide the password for the initial administrator account. Enter your desired password and you'll be redirected back to the login screen.
 
