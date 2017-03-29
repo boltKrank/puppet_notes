@@ -1,3 +1,9 @@
+## For SSHD install with the following:
+
+```
+sudo apt-get install openssh-server
+```
+
 ## 1. Install and configure the necessary dependencies
 
 If you install Postfix to send email please select 'Internet Site' during setup. Instead of using Postfix you can also use Sendmail or configure a custom SMTP server and configure it as an SMTP server.
