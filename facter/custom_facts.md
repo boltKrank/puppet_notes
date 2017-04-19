@@ -15,3 +15,9 @@ Common examples may be:
 
 
 ## How
+
+Some ways of adding custom facts:
+- Using the “export FACTER_…” syntax.
+- via the $LOAD_PATH setting
+- FACTERLIB
+- Pluginsync (distribute facts through modules)
