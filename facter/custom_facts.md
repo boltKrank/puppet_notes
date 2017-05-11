@@ -48,3 +48,5 @@ If you add a directory to the FACTERLIB environment variable, Facter will look t
 'i.e. export FACTERLIB=$FACTERLIB:/my/new/directory '
 
 NOTE: It won't search recursively.
+
+###Pluginsync (depricated in 2.4, restored in 3.0.2)
